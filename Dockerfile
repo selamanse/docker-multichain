@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 MAINTAINER selamanse <selamanse@scheinfrei.info>
 
 ENV CHAINNAME chain1
-ENV MULTICHAIN_VERSION 1.0.2
+ENV MULTICHAIN_VERSION 2.0-alpha-1
 
 RUN apt-get update && \
     apt-get install -y wget tar
